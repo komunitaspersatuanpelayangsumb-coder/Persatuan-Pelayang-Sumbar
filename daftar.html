@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Anggota PPS</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f4f4; margin:0; padding:0; }
+    header { background:#004080; color:#fff; padding:20px; text-align:center; }
+    nav { background:#333; padding:10px; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    nav a:hover { text-decoration:underline; }
+    section { display:flex; justify-content:center; align-items:center; padding:40px; }
+    .form-box { background:#fff; padding:30px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.2); width:400px; }
+    .form-box h2 { text-align:center; margin-bottom:20px; }
+    .form-box input, .form-box select { width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px; }
+    .form-box button { width:100%; padding:10px; background:#004080; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+    .form-box button:hover { background:#0066cc; }
+    footer { background:#004080; color:#fff; text-align:center; padding:10px; margin-top:20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pendaftaran Anggota PPS</h1>
+    <p>Formulir Resmi Keanggotaan</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="login.html">Login</a>
+    <a href="daftar.html">Daftar</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <section>
+    <div class="form-box">
+      <h2>Formulir Pendaftaran</h2>
+      <form>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Nomor HP/WA" required>
+        <select required>
+          <option value="">Pilih Jenis Anggota</option>
+          <option value="biasa">Anggota Biasa</option>
+          <option value="pengurus">Pengurus</option>
+        </select>
+        <input type="text" placeholder="Alamat" required>
+        <button type="submit">Daftar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 PPS - Persatuan Pelayang Sumbar</p>
+  </footer>
+</body>
+</html>
